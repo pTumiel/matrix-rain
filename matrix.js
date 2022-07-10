@@ -38,3 +38,6 @@ const draw = () => {
         rainDrops[i]++;
     }
 };
+
+setInterval(draw, 30);
+
